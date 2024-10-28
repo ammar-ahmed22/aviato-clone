@@ -3,10 +3,10 @@ import {
   HeroHeadcountHeaderGraph,
   HeroHeadcountGraph,
   HeroTrafficGraph,
-} from "./assets/images/hero/heroGraph";
-import heroImage1 from "./assets/images/hero/hero-image-1.png";
-import heroImage2 from "./assets/images/hero/hero-image-2.png";
-import heroImage3 from "./assets/images/hero/hero-image-3.png";
+} from "../assets/images/hero/heroGraph";
+import heroImage1 from "../assets/images/hero/hero-image-1.png";
+import heroImage2 from "../assets/images/hero/hero-image-2.png";
+import heroImage3 from "../assets/images/hero/hero-image-3.png";
 
 export default function HeroGraphic() {
   return (

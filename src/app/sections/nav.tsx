@@ -1,4 +1,4 @@
-import Logo from "./logo";
+import Logo from "../logo";
 import { Button } from "@/components/ui/button";
 
 export default function Nav() {

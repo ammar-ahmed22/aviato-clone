@@ -1,5 +1,5 @@
-import Hero from "./hero";
-import Partners from "./partners";
+import Hero from "./sections/hero";
+import Partners from "./sections/partners";
 
 export default function Home() {
   return (

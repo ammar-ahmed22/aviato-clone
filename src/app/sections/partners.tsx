@@ -1,9 +1,9 @@
 import Image from "next/image"
-import EightVCGraphic from "./assets/images/partners/eightVC"
-import somaCapital from "./assets/images/partners/soma-capital.png"
-import nea from "./assets/images/partners/nea.png"
-import uber from "./assets/images/partners/uber.png"
-import merrillLynch from "./assets/images/partners/merrill-lynch.png"
+import EightVCGraphic from "../assets/images/partners/eightVC"
+import somaCapital from "../assets/images/partners/soma-capital.png"
+import nea from "../assets/images/partners/nea.png"
+import uber from "../assets/images/partners/uber.png"
+import merrillLynch from "../assets/images/partners/merrill-lynch.png"
 
 export default function Partners() {
   return (
