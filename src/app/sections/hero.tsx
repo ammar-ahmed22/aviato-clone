@@ -4,7 +4,8 @@ import { Button } from "@/components/ui/button";
 
 export default function Hero() {
   return (
-    <div className="pb-[calc(80px+256px+80px)] md:rounded-b-[40px] rounded-b-3xl bg-[rgb(3,62,52)] overflow-x-clip ">
+    <div className="bg-[rgb(246,246,246)]">
+      <div className="pb-[calc(80px+256px+80px)] md:rounded-b-[40px] rounded-b-3xl bg-[rgb(3,62,52)] overflow-x-clip ">
       <Nav />
       <div className="lg:max-w-xl mx-auto w-full px-4">
         <h1 className="lg:text-[64px] lg:leading-[64px] sm:text-5xl sm:leading-[48px] text-4xl md:text-6xl md:leading-[60px] text-white text-balance tracking-[-0.04em] text-center pt-24">
@@ -23,6 +24,7 @@ export default function Hero() {
         </div>
       </div>
       <HeroGraphic />
+    </div>
     </div>
   );
 }
