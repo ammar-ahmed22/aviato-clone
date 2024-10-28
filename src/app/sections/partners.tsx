@@ -14,16 +14,16 @@ export default function Partners() {
         </p>
         <div className="flex md:flex-row flex-col items-center justify-center gap-20 md:mt-10 mt-16 opacity-40">
           <EightVCGraphic />
-          <Image
+          <img
             alt="soma capital logo"
-            src={somaCapital}
+            src={somaCapital.src}
             className="h-[46px]"
           />
-          <Image alt="nea logo" src={nea} className="h-[37px]" />
-          <Image alt="uber logo" src={uber} className="h-[76px]" />
-          <Image
+          <img alt="nea logo" src={nea.src} className="h-[37px]" />
+          <img alt="uber logo" src={uber.src} className="h-[76px]" />
+          <img
             alt="merrill lynch logo"
-            src={merrillLynch}
+            src={merrillLynch.src}
             className="h-[76px]"
           />
         </div>
