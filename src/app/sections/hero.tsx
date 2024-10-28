@@ -8,7 +8,8 @@ export default function Hero() {
       <Nav />
       <div className="lg:max-w-xl mx-auto w-full px-4">
         <h1 className="lg:text-[64px] lg:leading-[64px] sm:text-5xl sm:leading-[48px] text-4xl md:text-6xl md:leading-[60px] text-white text-balance tracking-[-0.04em] text-center pt-24">
-          The analytical layer<br />
+          The analytical layer
+          <br />
           for private markets
         </h1>
         <p className="text-white lg:px-8 md:px-12 leading-[24px] mt-4 text-center text-balance lg:text-pretty tracking-[-0.015em]">
