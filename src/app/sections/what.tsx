@@ -123,7 +123,36 @@ export default function What() {
       </div>
       {/* Smaller screens, showing all */}
       {/* TODO */}
-      <div className="md:hidden block space-y-16 text-center"></div>
+      <div className="md:hidden block space-y-16 text-center">
+        <div>
+          <p className="tracking-[-0.015em] text-lg">What is Aviato?</p>
+          <h2 className="mt-2 text-3xl max-w-2xl text-balance text-center tracking-[-0.045em] leading-[38px]">
+            The most comprehensive view on private markets there is, made
+            accessible to you
+          </h2>
+        </div>
+        <div className="grid grid-cols-1 gap-4 text-left">
+          {
+            displays.map(display => {
+              return (
+                <div
+                  key={display.label}
+                  className="space-y-5 py-8 border-t border-t-[#B9BDCC]"
+                >
+                  <h3 className="text-2xl tracking-[-0.045em]">{display.label}</h3>
+                  <img 
+                    src={display.img.src}
+                    className="w-full rounded-xl relative"
+                  />
+                  <Button className="bg-black text-white font-medium px-4 py-2.5 rounded-md leading-none">
+                    Try it
+                  </Button>
+                </div>
+              )
+            })
+          }
+        </div>
+      </div>
     </div>
   );
 }
