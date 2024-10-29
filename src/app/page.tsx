@@ -3,6 +3,7 @@ import Partners from "./sections/partners";
 import What from "./sections/what";
 import APICTA from "./sections/apiCta";
 import Features from "./sections/features";
+import CTA from "./sections/cta";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <What />
       <APICTA />
       <Features />
+      <CTA />
     </div>
   );
 }
