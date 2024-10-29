@@ -1,4 +1,3 @@
-import Image from "next/image";
 import EightVCGraphic from "../assets/images/partners/eightVC";
 import somaCapital from "../assets/images/partners/soma-capital.png";
 import nea from "../assets/images/partners/nea.png";

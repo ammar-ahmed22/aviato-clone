@@ -14,7 +14,7 @@ export default function CTA() {
         </svg>
       </div>
       <h2 className="text-center lg:text-[64px] md:text-5xl md:leading-[56px] tracking-[-0.04em] text-balance lg:px-64  lg:leading-[76px] text-4xl leading-[48px]">
-        Get the clearest picture of what's next in private markets
+        Get the clearest picture of what&apos;s next in private markets
       </h2>
       <Button className="px-9 h-[71px] rounded-full bg-[rgb(3,62,52)] text-white flex items-center justify-center font-medium tracking-[-0.02em] cursor-pointer text-2xl">
         Get a demo

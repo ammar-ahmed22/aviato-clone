@@ -58,7 +58,7 @@ export default function What() {
   useEffect(() => {
     setProgress(0);
     let elapsed = 0;
-    let IID = setInterval(() => {
+    const IID = setInterval(() => {
       if (elapsed >= 7000) {
         setActiveIdx((prev) => (prev + 1) % 3);
       }
