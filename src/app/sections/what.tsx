@@ -132,25 +132,25 @@ export default function What() {
           </h2>
         </div>
         <div className="grid grid-cols-1 gap-4 text-left">
-          {
-            displays.map(display => {
-              return (
-                <div
-                  key={display.label}
-                  className="space-y-5 py-8 border-t border-t-[#B9BDCC]"
-                >
-                  <h3 className="text-2xl tracking-[-0.045em]">{display.label}</h3>
-                  <img 
-                    src={display.img.src}
-                    className="w-full rounded-xl relative"
-                  />
-                  <Button className="bg-black text-white font-medium px-4 py-2.5 rounded-md leading-none">
-                    Try it
-                  </Button>
-                </div>
-              )
-            })
-          }
+          {displays.map((display) => {
+            return (
+              <div
+                key={display.label}
+                className="space-y-5 py-8 border-t border-t-[#B9BDCC]"
+              >
+                <h3 className="text-2xl tracking-[-0.045em]">
+                  {display.label}
+                </h3>
+                <img
+                  src={display.img.src}
+                  className="w-full rounded-xl relative"
+                />
+                <Button className="bg-black text-white font-medium px-4 py-2.5 rounded-md leading-none">
+                  Try it
+                </Button>
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>
