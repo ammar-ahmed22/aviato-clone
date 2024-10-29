@@ -4,6 +4,7 @@ import What from "./sections/what";
 import APICTA from "./sections/apiCta";
 import Features from "./sections/features";
 import CTA from "./sections/cta";
+import Footer from "./sections/footer";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <APICTA />
       <Features />
       <CTA />
+      <Footer />
     </div>
   );
 }
