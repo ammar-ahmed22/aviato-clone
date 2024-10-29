@@ -2,6 +2,7 @@
   <h1>Aviato Clone</h1>
   <p>Landing page clone of <a href="https://aviato.co">aviato.co</a></p>
   <p>Made as part of the interview process for AllMindAI.</p>
+  <p><a href="https://aviato-clone.vercel.app/">Live link</a></p>
 </div>
 
 ## Getting Started
